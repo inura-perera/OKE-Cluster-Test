@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: backend
-        image: <your-region>/<your-namespace>/backend:latest
+        image: sin.ocir.io/axyrsupwlofh/backend:latest
         ports:
         - containerPort: 5001

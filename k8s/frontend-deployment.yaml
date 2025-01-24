@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: <your-region>/<your-namespace>/frontend:latest
+        image: sin.ocir.io/axyrsupwlofh/frontend:latest
         ports:
         - containerPort: 5000
